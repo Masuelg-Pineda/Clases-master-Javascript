@@ -48,7 +48,7 @@ let persona = {
     edad: "22",
     ciudad: "CDMX"
 };
-console.log("Tipo de dato Object: ");
+console.log("Tipo de dato Object:");
 console.log(typeof persona);
 console.log(persona);
 
