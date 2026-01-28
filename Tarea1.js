@@ -28,3 +28,6 @@ console.log(typeof undefined);
 
 // Ejericio 9
 console.log(typeof FALSE);
+
+// Mi ejercicio
+console.log(typeof "4Glad");
