@@ -59,3 +59,9 @@ console.log(valor1 <= valor2);
 console.log(10 != 10);
 //Distinto que estricto
 console.log(10 !== 10);
+
+console.log(valor1 + 2);
+console.log(valor1); // imprime 20 ya que no se modifica lo almacenado
+
+valor1 = valor1 + 3;
+console.log(valor1);
