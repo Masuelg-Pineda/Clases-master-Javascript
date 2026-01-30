@@ -63,5 +63,14 @@ console.log(10 !== 10);
 console.log(valor1 + 2);
 console.log(valor1); // imprime 20 ya que no se modifica lo almacenado
 
+//Operadores combinados
 valor1 = valor1 + 3;
+valor1 += 4;
+valor1 -= 2;
+
 console.log(valor1);
+
+//El modulo % devuelve el residuo de una division
+//a%b
+
+console.log(8 % 2);
