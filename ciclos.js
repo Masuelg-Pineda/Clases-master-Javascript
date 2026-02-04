@@ -1,5 +1,7 @@
 //Repite mientras la condición es true
 
+/*
+
 let i = 1;
 
 while (i <= 5){
@@ -53,7 +55,7 @@ console.log(alumnos);
 
 //arreglo de lista de super
 //impriman su lista del super
-/*1. manzana
+1. manzana
 2. papas
 3. papel de baño
 4. jabon
@@ -62,3 +64,33 @@ Extra 1 Total de productos = ____
 Extra 2
 Prompt ir metiendo (guardar la lista que te da el usuario, dentro de un arreglo)
 */
+
+let producto = ["carro", "ser", "rep", "coca"];
+
+/*let producto = prompt("Ingresa un producto");
+    if(producto !== null && producto )
+
+productos.push();*/
+
+for (let i = 0; producto.length; i++){
+    console.log((i+1) + "." + producto[i])
+}
+console.log("Total de lista= ", producto.length)
+
+//Extra1
+
+let compra = [];
+let product = "inicio";
+
+while (product !== ""){
+   product = prompt ("ingresa productos")
+   if (product !== ""){
+    compra.push(product)
+   }
+}
+
+for (let indic = 0; indic < compra.length; indic++){
+    console.log((indic+1) + " - " + compra[indic]);
+}
+
+console.log("Total de la lista: ", compra.length)
