@@ -44,7 +44,7 @@ function multiplicar(dato1, dato2){
 
 console.log(multiplicar(4)); //Not a Number NaN, hace falta pasarle un argumento
 
-console.log(Ana); //error de variable no definida
+//console.log(Ana); //error de variable no definida
 
 //arrow function o funcion de flecha
 
@@ -73,3 +73,47 @@ setTimeout(function(){
 tiene logica grande o compleja
 necesita ser testeada
 Se necesita claridad */
+
+function mascotas (a, b, c){
+    console.log("nombre de mascotas: ", a + b + c)
+}
+
+mascotas("Cata", "Bombon", "Bunny");
+
+/* 3 funciones
+funcion calculo area de triangulo
+funcion verificar si numero es primo
+funcion para generar numero fibonacci
+*/
+
+//1er ejercicio
+const ArTrian = (b,h) => (b*h)/2
+console.log(ArTrian(12,4));
+
+//2do ejercicio
+const nPrimo = (n) => {
+    if (n <= 1) return false;
+    for (let i = 2; i <= Math.sqrt(n);i++){
+        if (n % i === 0) return false;
+    }
+    return true;
+};
+console.log(nPrimo(8));
+console.log(nPrimo(27));
+console.log(nPrimo(29));
+
+//3er ejercicio
+const crearFibonacci = (cantidad) => {
+    let lista = [];
+
+    if (cantidad >= 1) lista.push(0);
+    if (cantidad >= 2) lista.push(1);
+
+    for (let i = 2; i < cantidad; i++) {
+        lista.push(lista[i - 1] + lista[i - 2]); // suma los dos números anteriores y agrega el resultado al arreglo
+    }
+
+    return lista; // Devuelve la serie
+};
+console.log(crearFibonacci(6)); // [0, 1, 1, 2, 3, 5]
+console.log(crearFibonacci(10)); // [0, 1, 1, 2, 3, 5, 8, 13, 21, 34]
