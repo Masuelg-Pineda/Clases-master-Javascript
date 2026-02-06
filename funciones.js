@@ -103,17 +103,18 @@ console.log(nPrimo(27));
 console.log(nPrimo(29));
 
 //3er ejercicio
-const crearFibonacci = (cantidad) => {
+const Fibo = (x) => {
     let lista = [];
 
-    if (cantidad >= 1) lista.push(0);
-    if (cantidad >= 2) lista.push(1);
+    if (x >= 1) lista.push(0);
+    if (x >= 2) lista.push(1);
 
-    for (let i = 2; i < cantidad; i++) {
+    for (let i = 2; i < x; i++) {
         lista.push(lista[i - 1] + lista[i - 2]); // suma los dos números anteriores y agrega el resultado al arreglo
     }
 
     return lista; // Devuelve la serie
 };
-console.log(crearFibonacci(6)); // [0, 1, 1, 2, 3, 5]
-console.log(crearFibonacci(10)); // [0, 1, 1, 2, 3, 5, 8, 13, 21, 34]
+console.log(Fibo(6)); // [0, 1, 1, 2, 3, 5]
+console.log(Fibo(10)); // [0, 1, 1, 2, 3, 5, 8, 13, 21, 34]
+console.log(Fibo(15));
