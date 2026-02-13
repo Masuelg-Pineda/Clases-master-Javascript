@@ -3,3 +3,15 @@
     width: 200px;
     height: 200px;
 }
+
+.caja {
+    background-color: lightcoral;
+    width: 50px;
+    height: 50px;
+    transition: 0.3s;
+}
+
+.activa {
+    background-color: violet;
+    transform: scale(1.1);
+}
