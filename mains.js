@@ -9,7 +9,7 @@ console.log(texto);
 const caja = document.getElementById("caja");
 console.log(caja);
 
-const bTn = document.getElementById("bTn");
+const bTnClase = document.getElementById("bTn");
 const bTnTexto = document.getElementById("bTnTexto");
 const bTnColor = document.getElementById("bTnColor");
 const bTnOcultar = document.getElementById("bTnOcultar");
@@ -36,6 +36,6 @@ bTnOcultar.addEventListener("click", () => {
 });
 
 //Cambiar de clase
-bTn.addEventListener("click", () => {
+bTnClase.addEventListener("click", () => {
     caja.classList.toggle("activa"); //Cambia el estado visual
 });

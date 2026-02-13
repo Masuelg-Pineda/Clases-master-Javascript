@@ -1,4 +1,4 @@
-#caja {
+.cajabase {
     background-color: lightseagreen;
     width: 200px;
     height: 200px;
@@ -12,6 +12,6 @@
 }
 
 .activa {
-    background-color: violet;
     transform: scale(1.1);
+    background-color: greenyellow;
 }
