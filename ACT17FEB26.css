@@ -1,0 +1,13 @@
+.matrix {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.cuadro {
+    border: 2px solid black;
+    padding: 10px;
+    min-height: 150px;
+}
