@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Generador de Password</title>
+    <link rel="stylesheet" href="styleTarea7.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>Genera tu contraseña</h1>
+
+    <div class="password-box">
+        <input type="text" id="password" readonly>
+        <button id="copyBtn">📋</button>
+    </div>
+
+    <div class="config">
+
+        <label>Longitud: <span id="lengthValue">12</span></label>
+        <input type="range" id="length" min="8" max="30" value="12">
+
+        <div class="options">
+            <label><input type="checkbox" id="uppercase" checked> Mayúsculas</label>
+            <label><input type="checkbox" id="lowercase" checked> Minúsculas</label>
+            <label><input type="checkbox" id="numbers" checked> Números</label>
+            <label><input type="checkbox" id="symbols"> Símbolos</label>
+        </div>
+
+        <div class="strength">
+            Fuerza:
+            <div id="strengthBar"></div>
+        </div>
+
+        <button id="generateBtn">GENERAR</button>
+
+    </div>
+
+</div>
+
+<script src="Tareea7.js"></script>
+</body>
+</html>
