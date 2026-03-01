@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anotaciones del Día</title>
+    <link rel="stylesheet" href="ProyFINAL.css">
+</head>
+<body>
+
+    <h1>Anotaciones del día</h1>
+
+    <div class="input-area">
+        <input type="text" id="itemInput" placeholder="Escribe una anotación">
+
+        <select id="categoria">
+            <option value="DIA1">TAREAS DE LA ESCUELA</option>
+            <option value="DIA2">NOTAS DEL TRABAJO</option>
+            <option value="PENDIENTES">PENDIENTES</option>
+            <option value="METAS">METAS</option>
+        </select>
+
+        <button id="addItemButton">Agregar</button>
+    </div>
+
+    <div class="matrix">
+        <div class="cuadro" id="DIA1">
+            <h3>TAREAS DE LA ESCUELA</h3>
+            <ul></ul>
+        </div>
+
+        <div class="cuadro" id="DIA2">
+            <h3>NOTAS DEL TRABAJO</h3>
+            <ul></ul>
+        </div>
+
+        <div class="cuadro" id="PENDIENTES">
+            <h3>PENDIENTES</h3>
+            <ul></ul>
+        </div>
+
+        <div class="cuadro" id="METAS">
+            <h3>METAS</h3>
+            <ul></ul>
+        </div>
+    </div>
+
+<script src="ProyFINAL.js"></script>
+</body>
+</html>
