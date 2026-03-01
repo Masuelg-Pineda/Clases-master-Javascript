@@ -43,7 +43,6 @@ const libro = {
     }
 };
 
-//////////////////////////////////////////////////
 // Acceder a datos con notación de punto
 console.log(libro.autor);
 console.log(libro.capitulos);
